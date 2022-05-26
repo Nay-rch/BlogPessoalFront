@@ -1,0 +1,11 @@
+.cordefundo{
+    background: linear-gradient(36deg, rgba(50, 49, 107, 0.983) 9%, #972dd4 80%  )
+}
+.layout{
+    display: flex;
+    justify-content: space-between;
+}
+.layout h6{
+    margin-left: 30px;
+
+}

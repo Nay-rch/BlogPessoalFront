@@ -1,10 +1,22 @@
-.titulo{
+ .titulo{
     color: black;
     text-align: center
-}
-.img{
+} 
+ /* /* .img{
     width: 500px;
     height: 500px;
     display: block;
-    margin: 0 auto;
-}
+    margin: 0 auto; 
+}  */
+ .background{
+    background-image: url("/Assets/1.webp");
+    min-height: calc(120vh - 64px - 180px);
+    background-repeat: no-repeat;
+    width: 80vw;
+    background-size: cover; 
+    padding: 125px;
+
+
+
+    
+}  
