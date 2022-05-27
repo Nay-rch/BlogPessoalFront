@@ -1,22 +1,24 @@
+
+ .botao{
+     border-color: white !important;
+     background-color: #3F51B5 !important;
+     color: white !important;
+ }
+ .postagens{
+     background-color: white !important;
+ }
+ 
  .titulo{
-    color: black;
-    text-align: center
-} 
- /* /* .img{
-    width: 500px;
-    height: 500px;
-    display: block;
-    margin: 0 auto; 
-}  */
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold !important;
+}   
+ 
  .background{
-    background-image: url("/Assets/1.webp");
-    min-height: calc(120vh - 64px - 180px);
-    background-repeat: no-repeat;
-    width: 80vw;
-    background-size: cover; 
-    padding: 125px;
-
-
-
+    background-image: url("/Assets/1.webp") !important;
+    min-height: calc(140vh - 64px - 180px) !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    background-size: cover !important; 
+    padding: 125px !important;
     
 }  
