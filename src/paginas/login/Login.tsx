@@ -29,7 +29,7 @@ function Login() {
     }
 
     useEffect(()=>{
-        if (token != '/home'){
+        if (token != ''){
             navigate('/home')
 
         }
@@ -40,7 +40,7 @@ function Login() {
     async function onSubmit (e: ChangeEvent<HTMLFormElement>){
         e.preventDefault();
         try{
-            await login ('/usuarios/logar', userLogin.foto, setToken)
+            await login ('/usuarios/logar', userLogin, setToken)
             
             alert('Usuário logado com sucesso!');
 
