@@ -2,3 +2,12 @@
 .text-decorator-none{
     text-decoration: none;
 }
+.background{
+    background-image: url("/Assets/1.webp") !important;
+    min-height: calc(140vh - 64px - 180px) !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    background-size: cover !important; 
+    padding: 125px !important;
+    
+}  
